@@ -1,0 +1,750 @@
+{
+  "version": 6,
+  "entities": [
+    {
+      "entity": {
+        "type": "Project",
+        "id": "5dae404d-ecf9-4887-b94c-af0c809632dc",
+        "name": "Chrome_Update"
+      },
+      "children": [
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "<?xml version='1.0' encoding='UTF-8'?>\n<request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'\n    sessionid='{3597644B-2952-4F92-AE55-D315F45F80A5}' installsource='ondemandcheckforupdate'\n    requestid='{CD7523AD-A40D-49F4-AEEF-8C114B804658}' dedup='cr'>\n<hw sse='1' sse2='1' sse3='1' ssse3='1' sse41='1' sse42='1' avx='1' physmemory='12582912' />\n<os platform='mac' version='46.0.2490.86' arch='x64'/>\n<app appid='com.google.Chrome.beta' ap='betachannel' version='' nextversion='' lang='' brand='GGLS' client=''><updatecheck/></app>\n</request>"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "tools.google.com",
+              "path": "/service/update2"
+            },
+            "id": "81280a2d-cad8-4539-b95d-42079a75843b",
+            "name": "mac_beta_x64",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "enabled": true,
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "<?xml version='1.0' encoding='UTF-8'?>\n<request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'\n    sessionid='{3597644B-2952-4F92-AE55-D315F45F80A5}' installsource='ondemandcheckforupdate'\n    requestid='{CD7523AD-A40D-49F4-AEEF-8C114B804658}' dedup='cr'>\n<hw sse='1' sse2='1' sse3='1' ssse3='1' sse41='1' sse42='1' avx='1' physmemory='12582912' />\n<os platform='mac' version='46.0.2490.86' arch='x86'/>\n<app appid='com.google.Chrome.beta' ap='betachannel' version='' nextversion='' lang='' brand='GGLS' client=''><updatecheck/></app>\n</request>"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "tools.google.com",
+              "path": "/service/update2"
+            },
+            "id": "f4b7002c-038c-4edc-97f2-a045654c8a56",
+            "name": "mac_beta_x86",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "enabled": true,
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "<?xml version='1.0' encoding='UTF-8'?>\n<request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'\n    sessionid='{3597644B-2952-4F92-AE55-D315F45F80A5}' installsource='ondemandcheckforupdate'\n    requestid='{CD7523AD-A40D-49F4-AEEF-8C114B804658}' dedup='cr'>\n<hw sse='1' sse2='1' sse3='1' ssse3='1' sse41='1' sse42='1' avx='1' physmemory='12582912' />\n<os platform='mac' version='46.0.2490.86' arch='x64'/>\n<app appid='com.google.Chrome.Canary' ap='' version='' nextversion='' lang='' brand='GGLS' client=''><updatecheck/></app>\n</request>"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "tools.google.com",
+              "path": "/service/update2"
+            },
+            "id": "77c11773-40ce-4801-bb41-fed4b1667c17",
+            "name": "mac_canary_x64",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "enabled": true,
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "<?xml version='1.0' encoding='UTF-8'?>\n<request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'\n    sessionid='{3597644B-2952-4F92-AE55-D315F45F80A5}' installsource='ondemandcheckforupdate'\n    requestid='{CD7523AD-A40D-49F4-AEEF-8C114B804658}' dedup='cr'>\n<hw sse='1' sse2='1' sse3='1' ssse3='1' sse41='1' sse42='1' avx='1' physmemory='12582912' />\n<os platform='mac' version='46.0.2490.86' arch='x86'/>\n<app appid='com.google.Chrome.Canary' ap='' version='' nextversion='' lang='' brand='GGLS' client=''><updatecheck/></app>\n</request>"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "tools.google.com",
+              "path": "/service/update2"
+            },
+            "id": "e89a416d-7f1f-41e4-8800-fe88e456cce1",
+            "name": "mac_canary_x86",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "enabled": true,
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "<?xml version='1.0' encoding='UTF-8'?>\n<request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'\n    sessionid='{3597644B-2952-4F92-AE55-D315F45F80A5}' installsource='ondemandcheckforupdate'\n    requestid='{CD7523AD-A40D-49F4-AEEF-8C114B804658}' dedup='cr'>\n<hw sse='1' sse2='1' sse3='1' ssse3='1' sse41='1' sse42='1' avx='1' physmemory='12582912' />\n<os platform='mac' version='46.0.2490.86' arch='x64'/>\n<app appid='com.google.Chrome.dev' ap='betachannel' version='' nextversion='' lang='' brand='GGLS' client=''><updatecheck/></app>\n</request>"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "tools.google.com",
+              "path": "/service/update2"
+            },
+            "id": "863d75cb-a05b-41e6-b478-2cc87c2e3d54",
+            "name": "mac_dev_x64",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "enabled": true,
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "<?xml version='1.0' encoding='UTF-8'?>\n<request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'\n    sessionid='{3597644B-2952-4F92-AE55-D315F45F80A5}' installsource='ondemandcheckforupdate'\n    requestid='{CD7523AD-A40D-49F4-AEEF-8C114B804658}' dedup='cr'>\n<hw sse='1' sse2='1' sse3='1' ssse3='1' sse41='1' sse42='1' avx='1' physmemory='12582912' />\n<os platform='mac' version='46.0.2490.86' arch='x86'/>\n<app appid='com.google.Chrome.dev' ap='devchannel' version='' nextversion='' lang='' brand='GGLS' client=''><updatecheck/></app>\n</request>"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "tools.google.com",
+              "path": "/service/update2"
+            },
+            "id": "be10eea0-fdc1-4c2c-bc1c-cbec233a2ace",
+            "name": "mac_dev_x86",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "enabled": true,
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "<?xml version='1.0' encoding='UTF-8'?>\n<request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'\n    sessionid='{3597644B-2952-4F92-AE55-D315F45F80A5}' installsource='ondemandcheckforupdate'\n    requestid='{CD7523AD-A40D-49F4-AEEF-8C114B804658}' dedup='cr'>\n<hw sse='1' sse2='1' sse3='1' ssse3='1' sse41='1' sse42='1' avx='1' physmemory='12582912' />\n<os platform='mac' version='46.0.2490.86' arch='x64'/>\n<app appid='com.google.Chrome' ap='' version='' nextversion='' lang='' brand='GGLS' client=''><updatecheck/></app>\n</request>"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "tools.google.com",
+              "path": "/service/update2"
+            },
+            "id": "22f1c8f6-916b-4a99-8c00-b624f4532b30",
+            "name": "mac_stable_x64",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "enabled": true,
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "<?xml version='1.0' encoding='UTF-8'?>\n<request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'\n    sessionid='{3597644B-2952-4F92-AE55-D315F45F80A5}' installsource='ondemandcheckforupdate'\n    requestid='{CD7523AD-A40D-49F4-AEEF-8C114B804658}' dedup='cr'>\n<hw sse='1' sse2='1' sse3='1' ssse3='1' sse41='1' sse42='1' avx='1' physmemory='12582912' />\n<os platform='mac' version='46.0.2490.86' arch='x86'/>\n<app appid='com.google.Chrome' ap='' version='' nextversion='' lang='' brand='GGLS' client=''><updatecheck/></app>\n</request>"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "tools.google.com",
+              "path": "/service/update2"
+            },
+            "id": "6b60464e-7be3-4b0f-a960-70d103d4b02d",
+            "name": "mac_stable_x86",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "enabled": true,
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "<?xml version='1.0' encoding='UTF-8'?>\n<request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'\n    sessionid='{3597644B-2952-4F92-AE55-D315F45F80A5}' installsource='ondemandcheckforupdate'\n    requestid='{CD7523AD-A40D-49F4-AEEF-8C114B804658}' dedup='cr'>\n<hw sse='1' sse2='1' sse3='1' ssse3='1' sse41='1' sse42='1' avx='1' physmemory='12582912' />\n<os platform='win' version='6.3' arch='x64'/>\n<app appid='{8A69D345-D564-463C-AFF1-A69D9E530F96}' ap='x64-beta-multi-chrome' version='' nextversion='' lang='' brand='GGLS' client=''><updatecheck/></app>\n</request>"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "tools.google.com",
+              "path": "/service/update2"
+            },
+            "id": "fd3e6bc0-4bfa-41c2-b96b-904888053b3c",
+            "name": "win_beta_x64",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "enabled": true,
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "<?xml version='1.0' encoding='UTF-8'?>\n<request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'\n    sessionid='{3597644B-2952-4F92-AE55-D315F45F80A5}' installsource='ondemandcheckforupdate'\n    requestid='{CD7523AD-A40D-49F4-AEEF-8C114B804658}' dedup='cr'>\n<hw sse='1' sse2='1' sse3='1' ssse3='1' sse41='1' sse42='1' avx='1' physmemory='12582912' />\n<os platform='win' version='6.3' arch='x86'/>\n<app appid='{8A69D345-D564-463C-AFF1-A69D9E530F96}' ap='1.1-beta' version='' nextversion='' lang='' brand='GGLS' client=''><updatecheck/></app>\n</request>"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "tools.google.com",
+              "path": "/service/update2"
+            },
+            "id": "e1ae25c4-dd4f-4fb7-85df-6523f4f70092",
+            "name": "win_beta_x86",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "enabled": true,
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "<?xml version='1.0' encoding='UTF-8'?>\n<request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'\n    sessionid='{3597644B-2952-4F92-AE55-D315F45F80A5}' installsource='ondemandcheckforupdate'\n    requestid='{CD7523AD-A40D-49F4-AEEF-8C114B804658}' dedup='cr'>\n<hw sse='1' sse2='1' sse3='1' ssse3='1' sse41='1' sse42='1' avx='1' physmemory='12582912' />\n<os platform='win' version='6.3' arch='x64'/>\n<app appid='{4EA16AC7-FD5A-47C3-875B-DBF4A2008C20}' ap='x64-canary' version='' nextversion='' lang='' brand='GGLS' client=''><updatecheck/></app>\n</request>"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "tools.google.com",
+              "path": "/service/update2"
+            },
+            "id": "efc28c8c-3394-45f9-8e30-a951e6559d69",
+            "name": "win_canary_x64",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "enabled": true,
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "<?xml version='1.0' encoding='UTF-8'?>\n<request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'\n    sessionid='{3597644B-2952-4F92-AE55-D315F45F80A5}' installsource='ondemandcheckforupdate'\n    requestid='{CD7523AD-A40D-49F4-AEEF-8C114B804658}' dedup='cr'>\n<hw sse='1' sse2='1' sse3='1' ssse3='1' sse41='1' sse42='1' avx='1' physmemory='12582912' />\n<os platform='win' version='6.3' arch='x86'/>\n<app appid='{4EA16AC7-FD5A-47C3-875B-DBF4A2008C20}' ap='' version='' nextversion='' lang='' brand='GGLS' client=''><updatecheck/></app>\n</request>"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "tools.google.com",
+              "path": "/service/update2"
+            },
+            "id": "23c2eeb3-1425-48fa-a833-4b453c6461c5",
+            "name": "win_canary_x86",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "enabled": true,
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "<?xml version='1.0' encoding='UTF-8'?>\n<request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'\n    sessionid='{3597644B-2952-4F92-AE55-D315F45F80A5}' installsource='ondemandcheckforupdate'\n    requestid='{CD7523AD-A40D-49F4-AEEF-8C114B804658}' dedup='cr'>\n<hw sse='1' sse2='1' sse3='1' ssse3='1' sse41='1' sse42='1' avx='1' physmemory='12582912' />\n<os platform='win' version='6.3' arch='x64'/>\n<app appid='{8A69D345-D564-463C-AFF1-A69D9E530F96}' ap='x64-dev-multi-chrome' version='' nextversion='' lang='' brand='GGLS' client=''><updatecheck/></app>\n</request>"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "tools.google.com",
+              "path": "/service/update2"
+            },
+            "id": "8cd83c89-13b4-4833-97f6-201f3927da56",
+            "name": "win_dev_x64",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "enabled": true,
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "<?xml version='1.0' encoding='UTF-8'?>\n<request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'\n    sessionid='{3597644B-2952-4F92-AE55-D315F45F80A5}' installsource='ondemandcheckforupdate'\n    requestid='{CD7523AD-A40D-49F4-AEEF-8C114B804658}' dedup='cr'>\n<hw sse='1' sse2='1' sse3='1' ssse3='1' sse41='1' sse42='1' avx='1' physmemory='12582912' />\n<os platform='win' version='6.3' arch='x86'/>\n<app appid='{8A69D345-D564-463C-AFF1-A69D9E530F96}' ap='2.0-dev' version='' nextversion='' lang='' brand='GGLS' client=''><updatecheck/></app>\n</request>"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "tools.google.com",
+              "path": "/service/update2"
+            },
+            "id": "22b4a8bf-bab1-4843-b9a0-0cf35f4b0c98",
+            "name": "win_dev_x86",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "enabled": true,
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "<?xml version='1.0' encoding='UTF-8'?>\n<request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'\n    sessionid='{3597644B-2952-4F92-AE55-D315F45F80A5}' installsource='ondemandcheckforupdate'\n    requestid='{CD7523AD-A40D-49F4-AEEF-8C114B804658}' dedup='cr'>\n<hw sse='1' sse2='1' sse3='1' ssse3='1' sse41='1' sse42='1' avx='1' physmemory='12582912' />\n<os platform='win' version='6.3' arch='x64'/>\n<app appid='{8A69D345-D564-463C-AFF1-A69D9E530F96}' ap='x64-stable-multi-chrome' version='' nextversion='' lang='' brand='GGLS' client=''><updatecheck/></app>\n</request>"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "tools.google.com",
+              "path": "/service/update2"
+            },
+            "id": "8ad28a3a-b5f4-4e2f-a588-382478f50793",
+            "name": "win_stable_x64",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "enabled": true,
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "<?xml version='1.0' encoding='UTF-8'?>\n<request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'\n    sessionid='{3597644B-2952-4F92-AE55-D315F45F80A5}' installsource='ondemandcheckforupdate'\n    requestid='{CD7523AD-A40D-49F4-AEEF-8C114B804658}' dedup='cr'>\n<hw sse='1' sse2='1' sse3='1' ssse3='1' sse41='1' sse42='1' avx='1' physmemory='12582912' />\n<os platform='win' version='6.3' arch='x86'/>\n<app appid='{8A69D345-D564-463C-AFF1-A69D9E530F96}' ap='-multi-chrome' version='' nextversion='' lang='' brand='GGLS' client=''><updatecheck/></app>\n</request>"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "tools.google.com",
+              "path": "/service/update2"
+            },
+            "id": "3fc0a5cc-b6c1-4f48-a2a6-91cb90e850da",
+            "name": "win_stable_x86",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "enabled": true,
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
