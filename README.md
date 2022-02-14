@@ -2,8 +2,11 @@
 
 
 1、chrome 安装[Talend API Tester - Free Edition](https://chrome.google.com/webstore/detail/talend-api-tester-free-ed/aejoelaoggembcahagimdiliamlcdmfm)插件；
+
 2、Talend API Tester - Free Edition插件中导入获取chrome安装包更新.json
+
 3、选择你要更新的chrome版本并发送请求获取更新地址
+
 3、获取到的更新地址格式为urls.url+packages.name，如：http://edgedl.me.gvt1.com/edgedl/release2/chrome/mymwdbo5qihdtrc2wv5f62iywy_98.0.4758.82/98.0.4758.82_chrome_installer.exe
 
 ```
