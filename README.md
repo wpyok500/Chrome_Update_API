@@ -38,3 +38,15 @@
     </app>
 </response>
 ```
+
+Stable版本在线下载地址：
+https://dl.google.com/tag/s/appguid={8A69D345-D564-463C-AFF1-A69D9E530F96}&iid={A63D0365-99BE-2CC1-A0CF-155D5582D720}&lang=zh-CN&browser=4&usagestats=1&appname=Google%20Chrome&needsadmin=prefers&ap=x64-stable-statsdef_1&installdataindex=empty/update2/installers/ChromeSetup.exe
+
+Beta版本在线下载地址：
+https://dl.google.com/tag/s/appguid={8237E44A-0054-442C-B6B6-EA0509993955}&iid={AECBACB7-EE1E-F027-867D-559237CAEFA8}&lang=zh-CN&browser=4&usagestats=1&appname=Google%20Chrome%20Beta&needsadmin=prefers&ap=-arch_x64-statsdef_1&installdataindex=empty/update2/installers/ChromeSetup.exe
+
+Dev版本在线下载地址：
+https://dl.google.com/tag/s/appguid={401C381F-E0DE-4B85-8BD8-3F3F14FBDA57}&iid={FF6B7218-7B91-016C-18D2-3976BD3F17FF}&lang=zh-CN&browser=4&usagestats=1&appname=Google%20Chrome%20Dev&needsadmin=prefers&ap=-arch_x64-statsdef_1&installdataindex=empty/update2/installers/ChromeSetup.exe
+
+Canary版本在线下载地址：
+https://dl.google.com/tag/s/appguid={4EA16AC7-FD5A-47C3-875B-DBF4A2008C20}&iid={2E1C9C74-B7B7-A102-6D5B-C694B0FD0375}&lang=zh-CN&browser=4&usagestats=1&appname=Google%20Chrome%20Canary&needsadmin=false&ap=x64-canary-statsdef_1&installdataindex=empty/update2/installers/ChromeSetup.exe
